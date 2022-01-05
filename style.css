@@ -10,10 +10,10 @@ h1{
 }
 .flexible{
     display: flex;
-    margin: 150px;
+    margin: 50px;
 }
 .half-widht{
-    width: 50%;
+    width: 40%;
     padding: 5%;
 }
 .half-widht img{
@@ -36,4 +36,16 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.Experiences-Area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Experiences-Area h2{
+color: orange;
+}
+.Experiences-Area div div{
+    box-shadow: gray 10px 10px 40px;
+    margin-left: 5%;
 }
